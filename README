@@ -1,0 +1,23 @@
+# erpnext-qa
+
+QA automation portfolio project for [ERPNext](https://github.com/frappe/erpnext) v15.
+
+## Goal
+
+Test a real, self-hosted ERP across three surfaces: the REST API, the web UI and the database. The aim is a clean, readable suite with a CI pipeline, a test strategy and measured results.
+
+## Stack
+
+- TypeScript (strict) and Playwright Test, for API and E2E tests
+- MariaDB checks with SQL
+- ERPNext v15 running locally with Docker
+- GitHub Actions for CI
+- ESLint and Prettier
+
+## Status
+
+In progress. The repository skeleton is ready; the environment and the tests come next.
+
+## How AI was used
+
+AI was used only to explain concepts and review pull requests. All test code is written by the author.
